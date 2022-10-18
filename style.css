@@ -1,0 +1,167 @@
+*{
+    font-family: JF-Flat,Open Sans,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+.nav-bar{
+    background: linear-gradient(to bottom, rgba(100, 100, 100, 0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(41, 41, 41, 0.4) 0%, rgba(0,0,0,0.40) 120%) #5a5959;
+    background-blend-mode: multiply,multiply;
+    box-shadow: 1px 1px 20px #09013d79;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    z-index: 10;
+}
+.nav-bar .logo img{
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 125px;
+}
+.nav-bar .pages a{
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: 800px;
+}
+.nav-bar .pages ._{
+    text-decoration: underline;
+}
+.nav-bar .pages{
+    margin-left: 220px;
+    top: 50px;
+    justify-content: flex-end;
+    
+}
+.logo{
+    top: 50px;
+    display: flex;
+    
+    margin-right: 3cm;
+}
+.logo p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5;
+    text-align: center;
+    margin-left: 10px;
+}
+.logo p span{
+    font-weight: 200;
+
+}
+#team-img img{
+    margin-top: 80px;
+    width: 100%;
+    height: 800px;
+    z-index: 1;
+    position: absolute;
+    
+}
+#team-img h1{
+    position: relative;
+    font-family: JF-Flat,Open Sans,Helvetica,Arial,sans-serif;
+    top: 310px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 2;
+    z-index: 1;
+    color: #fff;
+}
+#team-img p{
+    position: relative;
+    font-family: JF-Flat,Open Sans,Helvetica,Arial,sans-serif;
+    top: 300px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+    line-height: 1.7;
+    color: #fff;
+    z-index: 1;
+}
+#team-img a{
+    position: relative;
+    top: 400px;
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    z-index: 1;
+    padding: 15px;
+    border-radius: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    
+    
+    flex-basis: 5%;
+}
+
+video{
+    margin-top: 0px;
+    height:600px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-self: center;
+    margin-left: 150px;
+    background: rgba(0,32,74,.05);
+    padding: 50px;
+    box-shadow: 0 2px 6px #0003;
+    border-radius: 25px;
+
+}
+.students{
+    background-image: linear-gradient(120deg, #d6d4d4 0%, #ebedee 100%);
+    display: flex; 
+    color: #00aeef;
+    padding: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.num{
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    display: flex;
+    margin-left: 300px;
+}
+.students p{
+    font-size: 38px;
+    font-weight: 600;
+    margin-right: 100px;
+    text-align: center;
+}
+footer{
+    background-color: #000;
+    background: linear-gradient(to bottom, rgba(100, 100, 100, 0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(41, 41, 41, 0.4) 0%, rgba(0,0,0,0.40) 120%) #5a5959;
+    background-blend-mode: multiply,multiply;
+    margin-top: 200px;
+    display: flex;
+}
+footer img{
+    height: 25px;
+    width: 25px;
+    padding: 20px;
+}
+footer .up img{
+    margin-left: 1200px;
+}
+
+h5 a img{
+    margin-bottom: 0;
+}
+footer h5{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 1em;
+    margin-right: 50px;
+    margin-left: 20px;
+}

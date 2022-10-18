@@ -1,0 +1,174 @@
+*{
+    font-family: JF-Flat,Open Sans,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    
+    background-color: transparent;
+}
+.nav-bar{
+    background: linear-gradient(to bottom, rgba(100, 100, 100, 0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(41, 41, 41, 0.4) 0%, rgba(0,0,0,0.40) 120%) #5a5959;
+    background-blend-mode: multiply,multiply;
+    box-shadow: 1px 1px 20px #09013d79;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    z-index: 10;
+}
+.nav-bar .logo img{
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 125px;
+}
+.nav-bar .pages a{
+    
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: 800px;
+}
+.nav-bar .pages a :hover{
+    color: #0062ff;
+    background-color: #0062ff;
+    padding: 5px;
+}
+.nav-bar .pages ._{
+    text-decoration: underline;
+}
+.nav-bar .pages{
+    margin-left: 220px;
+    
+}
+.logo{
+    top: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 3cm;
+}
+.logo p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5;
+    text-align: center;
+    margin-left: 10px;
+}
+.logo p span{
+    font-weight: 200;
+
+}
+#team-img img{
+    margin-top: 80px;
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    z-index: 1;
+    
+}
+.fixed{
+    position: static;
+}
+.box{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 20px #09013d79;
+    padding: 25px;
+    padding-top: 15px;
+    border-radius: 30px;
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 800px;
+    left: 500px;
+    z-index: 2;
+}
+.box h2{
+    color: #003281;
+    font-size: 3em;
+    font-weight: bold;
+
+}
+.box h5{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.vision .card{
+    background-image: linear-gradient(120deg, #e2e2e2 0%, #858585 100%);
+    padding: 20px;
+    margin-top: 1000px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 25px;
+    justify-self: center;
+    display: flex;
+    margin-left: 380px;
+}
+
+.card2 h3{
+    font-size: 3em;
+    color: #564485;
+}
+.card2 h5 {
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.card h3{
+    font-size: 3em;
+    color: #564485;
+}
+.card h5 {
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.vision .card2{
+    background-image: linear-gradient(120deg, #e2e2e2 0%, #858585 100%);
+    padding: 20px;
+    margin-top: -430px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 25px;
+    justify-self: center;
+    
+    margin-left: 850px;
+}
+footer{
+    background-color: #000;
+    background: linear-gradient(to bottom, rgba(100, 100, 100, 0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(41, 41, 41, 0.4) 0%, rgba(0,0,0,0.40) 120%) #5a5959;
+    background-blend-mode: multiply,multiply;
+    margin-top: 200px;
+    display: flex;
+}
+footer img{
+    height: 25px;
+    width: 25px;
+    padding: 20px;
+}
+footer .up img{
+    margin-left: 1200px;
+}
+hr{
+    color: #fff;
+    height: 1px;
+}
+h5 a img{
+    margin-bottom: 0;
+}
+footer h5{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 1em;
+    margin-right: 50px;
+    margin-left: 20px;
+    
+}
